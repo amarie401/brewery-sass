@@ -1,0 +1,45 @@
+@import 'partials/reset';
+@import 'partials/mixins';
+@import 'partials/variables';
+@import 'partials/nav';
+@import 'partials/hero-beer';
+@import 'partials/contact';
+@import 'partials/footer';
+
+/*************************
+ MEDIA QUERIES
+**************************/
+/* Mobile*/
+@media screen and (max-width: 400px) {
+  .box1 {
+    width: 100%;
+  }
+  .contact {
+    float: left;
+  }
+  ul li {
+    padding: 5px;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 401px) and (max-width: 800px) {
+  /*body {
+    background: blue;
+  }*/
+  .box1 {
+    min-width: 400px;
+    margin: 10px;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 801px) {
+  /*body {
+    background: green;
+  }*/
+
+  form {
+    width: 590px;
+  }
+}

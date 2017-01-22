@@ -1,0 +1,39 @@
+/*************************
+ Hero
+**************************/
+.hero-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 100px;
+  .hero {
+    color: $white;
+    padding: 9rem 0 0;
+    margin: 0px;
+    height: 90vh;
+    background: linear-gradient(-53deg, rgba(53, 8, 22, .7), rgba(160, 126, 62, .43)), url(../images/hero.jpg) center center / cover no-repeat;
+  }
+}
+/*************************
+ Beer Section
+**************************/
+.beer-container {
+  width: 100%;
+  @include flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  .item {
+    vertical-align: top;
+    img {
+      height: 300px;
+    }
+    span {
+      font-family: $primaryFont;
+    }
+  }
+  .caption {
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
